@@ -1,0 +1,41 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.from-ed{
+    margin-top: 10px;
+}
+
+#form-regi{
+    padding-top: 30px;
+}
+
+
+/* index page  */
+
+
+#login{
+    box-shadow: 5px 5px 5px 0px gray;
+}
+body{
+    background-image: url("");
+}
+
+
+
+@media only screen and (max-width: 723px) {
+   #login{
+        max-height: 400px;
+   }
+
+   #registration{
+    max-height:  400px;
+   }
+  }
+
+/* register page */
+
+.form-error{
+  box-shadow: 6px 3.2px 7px -3px red;
+}

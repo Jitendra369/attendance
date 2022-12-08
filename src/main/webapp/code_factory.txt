@@ -1,0 +1,11 @@
+
+//code to get all the data of Admin Page : 
+
+			<div class="col-md-8">
+			<h1>All Notes</h1>
+				<%
+				Session sess = FactoryProvider.getFactory().openSession();
+				Query query = sess.createQuery("from Note");
+				List<Note> list = query.list();
+				for (Note note : list) {
+				%>
